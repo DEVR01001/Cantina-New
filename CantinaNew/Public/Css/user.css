@@ -1,0 +1,177 @@
+
+
+.container_title_user{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    font-size: 20px;
+    color: #444444;
+    font-weight: 500;
+    padding-top: 2rem;
+
+}
+
+
+
+.conatiner_text_area_user{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text_area_user{
+    display: flex;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    text-align: justify;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+
+.conatiner_select_menu{
+    display: flex;
+    margin-top: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+    width: 100%;
+
+}
+
+.conatiner_select_menu button{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #FA6136;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
+.conatiner_wrap_card{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.wrap_card_user{
+    display: flex;
+    width: 90%;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+}
+
+
+.card_default{
+    display: flex;
+    width: 300px;
+
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.card_default img{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+}
+
+
+.card_default .text_nome_default{
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 500;
+}
+
+
+.text_preco_default{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    font-size: 19px;
+    font-weight: 600;
+    color: #2cbc2e;
+}
+
+
+.conatiner_btn_card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+
+.conatiner_btn_card a {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #af2b2b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.conatiner_select_mobile{
+    display: none;
+    width: 100%;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.conatiner_select_mobile select{
+    display: flex;
+    width: 160px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 5px;
+}
+
+
+
+
+@media (max-width:600px) {
+
+    .wrap_card_user{
+        justify-content: center;
+    }
+
+
+    .conatiner_select_menu{
+        display: none;
+    }
+
+    .conatiner_select_mobile{
+        display: flex;
+    }
+
+  
+  
+}
+

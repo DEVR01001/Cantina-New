@@ -1,0 +1,390 @@
+
+dialog:not([open]) {
+    display: none;
+    outline: none;
+}
+
+dialog::backdrop{
+    background-color: #00000080;
+    outline: none;
+}
+
+
+dialog{
+    width: 40%;
+    border: none;
+    padding: 2rem;
+    border-radius: 5px;
+    justify-self: center;
+    align-self: center;
+    outline: none;
+
+
+}
+
+
+
+.modal_header{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding-bottom: 1rem;
+
+}
+
+.open-modal{
+    display: flex;
+    outline: none;
+    border: none;
+}
+
+
+.close-modal{
+    display: flex;
+    border: none;
+    outline: none;
+}
+
+.close-modal i{
+    display: flex;
+ 
+    border: none;
+    outline: none;
+
+}
+.modal_header button{
+    display: flex;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.modal_header button i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #4A4A4A;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    border: none;
+    display: flex;
+
+
+}
+
+.modal_header button i:hover{
+    transform: scale(1.09);
+}
+
+.modal_body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 1.5rem;
+    position: relative;
+}
+
+
+
+.modal_body .title_modal{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #FA6136;
+    font-weight: 500;
+
+}
+
+.modal_body input{
+    display: flex;
+    width: 20%;
+    height: 60px;
+    border: 1px solid rgb(181, 181, 181);
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #4A4A4A;
+
+}
+
+
+.modal_body  .conatiner_btn_modal{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.modal_body  .conatiner_btn_modal button{
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+
+
+}
+
+.modal_body  .conatiner_btn_modal button:nth-child(1){
+    background-color: #e51616;
+}
+.modal_body  .conatiner_btn_modal button:nth-child(2){
+    background-color: #2cbc2e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conatiner_dados_aluno_modal2{
+    display: flex;
+    gap: 10px;
+
+}
+
+.conatiner_dados_aluno_modal{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+.dados_aluno_modal{
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+
+.conatiner_produtos_modal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conatiner_produtos_modal img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f6f6f6;
+    object-fit: cover;
+}
+
+
+.container_status_modal{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.status_gamaneto_modal{
+    display: flex;
+    color: #4A4A4A;
+    font-size: 15px;
+    align-items:  center;
+    gap: 5px;
+}
+
+.status_gamaneto_modal span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2cbc2e;
+}
+
+.status_gamaneto_modal2{
+    display: flex;
+    color: #4A4A4A;
+    font-size: 15px;
+    align-items:  center;
+    gap: 10px;
+    width: 100%;
+    justify-content: end;
+
+}
+
+.status_gamaneto_modal2 span{
+    font-size: 30px;
+    font-weight:600;
+    color:#e51616;
+
+}
+
+
+
+
+
+
+
+.conatiner_dados_aluno_modal2 img{
+    display: flex;
+    width: 50%;
+    height: 170px;
+    background-color: #fafafa;
+
+    border-radius: 5px;
+}
+
+.text_modal_default_wrap{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text_modal_default_wrap p{
+    display: flex;
+    font-size: 20px;
+    color: #4A4A4A;
+    font-weight: 500;
+}
+
+
+.text_modal_default_wrap p:nth-child(2){
+    color: #2cbc2e;
+    font-weight: 600;
+}
+
+.text_modal_produto{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    color: #4A4A4A;
+    font-size: 15px;
+}
+
+.conatiner_center_modal_nutri{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+}
+
+
+.conatiner_btn_mosal_sacola{
+    display: flex;
+    position: sticky;
+    background-color: #2cbc2e;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    bottom: 0;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+
+    
+    
+}
+
+
+
+
+
+
+.conatiner_modal_text_pay{
+    display: flex;
+    width: 100%;
+    color: #4A4A4A;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.conatiner_qrcode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 60%;
+    height: 300px;
+    border-radius: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.conatiner_qrcode img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+@media (max-width: 1163px) {
+
+    dialog{
+        width: 60%;
+    }
+    
+}
+
+@media (max-width: 745px) {
+
+    dialog{
+        width: 75%;
+    }
+    
+}
+
+@media (max-width: 522px) {
+    .conatiner_qrcode{
+        width: 100%;
+    }
+
+    dialog{
+        width: 90%;
+    }
+    
+}
+
+
+@media (max-width: 400px) {
+
+    dialog{
+        width: 100%;
+    }
+    
+}

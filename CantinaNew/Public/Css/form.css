@@ -1,0 +1,250 @@
+.conatiner_form_adm{
+    display: flex;
+    bottom: -50px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title_color{
+    background-color: #FA6136;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.conatiner_form_adm .form_flex{
+    display: flex;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    padding: 1rem;
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.conatiner_form_big{
+    display: flex;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+
+
+.conatiner_form_adm .form_flex .conatiner_form_big .left_form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.item_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item_flex label{
+    font-size: 14px;
+    color: #454545;
+
+}
+
+.item_flex input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #454545;
+    padding: 10px;
+    outline: none;
+}
+
+.item_flex select{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #454545;
+    padding: 10px;
+    outline: none;
+}
+
+.item_flex textarea{
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #454545;
+    padding: 10px;
+    outline: none;
+    resize: none;
+
+}
+
+
+.right_form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.conatiner_previe_img{
+    display: flex;
+    padding: 10px;
+    height: 200px;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conatiner_previe_img img{
+    display: flex;
+    width: 50%;
+    height: 80%;
+    background-color: rgb(213, 213, 213);
+    border-radius: 5px;
+    object-fit: cover;
+
+}
+
+.conatiner_previe_img p{
+    font-size: 13px;
+    color: #454545;
+    justify-self: end;
+    align-items: end;
+    width: 100%;
+    justify-content: end;
+    align-items: end;
+    display: flex;
+
+}
+
+
+
+.conatiner_btn_form{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.conatiner_btn_form button{
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+
+
+}
+
+.conatiner_btn_form button:nth-child(1){
+    background-color: #e51616;
+}
+.conatiner_btn_form button:nth-child(2){
+    background-color: #2cbc2e;
+}
+
+
+
+
+.form_center{
+    display: flex;
+    width: 50%;
+    background-color: rgb(243, 243, 243);
+    padding: 1rem;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+
+
+
+
+@media (max-width:1300px) {
+
+    .conatiner_form_adm .form_flex .conatiner_form_big{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conatiner_form_adm .form_flex .conatiner_form_big .left_form,.right_form{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conatiner_previe_img{
+        width: 80%;
+    }
+    
+}
+
+
+
+@media (max-width:1200px) {
+
+    .form_center{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width:945px) {
+
+    .form_center{
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width: 558px) {
+    .item_flex textarea{
+        width: 300px;
+    }
+    
+}
+
+
+@media (max-width: 558px) {
+    .item_flex textarea{
+
+        width: 300px;
+    }
+    
+}
+
+@media (max-width: 455px) {
+    .item_flex input{
+        width: 300px;
+    }
+    
+}
